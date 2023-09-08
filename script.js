@@ -1,3 +1,4 @@
+// Script for changing color of the navbar elements while scrolling to the particular element
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -16,3 +17,25 @@ window.onscroll = () => {
         };
     });
 }
+
+// Script for showing the typed cursor in home page 
+var typed = new Typed('.type', {
+    strings: [
+      'Software',
+      'Full Stack Web'
+  ],
+    typeSpeed: 130,
+  //   backspeed: 90,
+    loop: true
+  });
+
+//   Script for changing color of the navbar while scrolling down
+
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});
+
+

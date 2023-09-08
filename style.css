@@ -97,12 +97,13 @@ h1,h2,p{
     font-weight: 500;
 }
 /* about section css  */
-#about{
+#about, #qualifications{
     background-color: antiquewhite;
     height: 100vh;
     width: 100%;
 }
-.about-title h2{
+.about-title h2,
+.qualifications-title h2{
     color: #37517e;
     margin-top: 0px;
     padding-top: 40px;
@@ -113,10 +114,11 @@ h1,h2,p{
     font-size: 40px;
     font-weight: bold;
 }
-.about-title{
+.about-title,.qualifications-title{
     text-align: center;
 }
-.about-title h2::before{
+.about-title h2::before,
+.qualifications-title h2::before{
     content: "";
     position: absolute;
     display: block;
@@ -126,7 +128,8 @@ h1,h2,p{
     bottom: 1px;
     left: calc(50% - 60px);
 }
-.about-title h2::after{
+.about-title h2::after,
+.qualifications-title h2::after{
     content: "";
     position: absolute;
     display: block;
@@ -149,10 +152,10 @@ h1,h2,p{
     font-size: 23px;
 }
 /* qualifications section css  */
-#qualifications{
+/* #qualifications{
     height: 100vh;
     width: 100%;
-}
+} */
 /* skills section css  */
 #skills{
     height: 100vh;
