@@ -1,0 +1,161 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    /* background-color: black; */
+}
+.fixed-top.scrolled{
+    background-color: #37517e;
+}
+/* navbar css */
+#header{
+    /* background-color: aquamarine; */
+    width: 100%;
+    z-index: 997;
+    padding: 15px 0;
+    /* transition: all 0.5s; */
+}
+.logo-image{
+    width: 60px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 400px;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    /* margin-left: 200px; */
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    position: relative;
+}
+.align-items-center{
+    align-items: center!important;
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.navbar li a:hover,
+.navbar li a.active{
+    color: #47b2e4;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* home section css  */
+#home{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+h1,h2,p{
+    color: #fff;
+    font-family: "Jost" sans-serif;
+}
+#home .myimage{
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+.row h1{
+    margin: 0 0 30px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.intro span{
+    color: #47b2e4;
+}
+#home h2{
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+#home p{
+    font-size: 24px;
+    font-weight: 500;
+}
+/* about section css  */
+#about{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+}
+.about-title h2{
+    color: #37517e;
+    margin-top: 0px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-title{
+    text-align: center;
+}
+.about-title h2::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: gray;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.about-title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.mydivimg{
+    left: 200px;
+    top: 40px;
+}
+.my-pic{
+    border-radius: 50px;
+    /* border: 2px solid black; */
+}
+.about-content .about-para>p{
+    color: black;
+    font-size: 23px;
+}
+/* qualifications section css  */
+#qualifications{
+    height: 100vh;
+    width: 100%;
+}
+/* skills section css  */
+#skills{
+    height: 100vh;
+    width: 100%;
+}
+
