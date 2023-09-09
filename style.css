@@ -8,6 +8,7 @@ body{
 .fixed-top.scrolled{
     background-color: #37517e;
 }
+
 /* navbar css */
 #header{
     /* background-color: aquamarine; */
@@ -96,8 +97,9 @@ h1,h2,p{
     font-size: 24px;
     font-weight: 500;
 }
+
 /* about section css  */
-#about, #qualifications, #skills{
+#about, #qualifications, #skills, #projects{
     background-color: antiquewhite;
     height: 100vh;
     width: 100%;
@@ -151,6 +153,7 @@ h1,h2,p{
     color: black;
     font-size: 23px;
 }
+
 /* qualifications section css  */
 #qualifications .education-title, #qualifications .work-title{
     font-size: 35px;
@@ -224,6 +227,7 @@ em{
 li{
     font-size: 20px;
 }
+
 /* Skills section css */
 #skills .row i{
     font-size: 32px;
@@ -240,7 +244,12 @@ li{
     margin-bottom: 50px;
 }
 #skills{
-    height: 80vh;
+    height: 90vh;
 }
+
+
+/* Projects section css */
+
+
 
 
