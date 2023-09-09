@@ -97,7 +97,7 @@ h1,h2,p{
     font-weight: 500;
 }
 /* about section css  */
-#about, #qualifications{
+#about, #qualifications, #skills{
     background-color: antiquewhite;
     height: 100vh;
     width: 100%;
@@ -152,13 +152,71 @@ h1,h2,p{
     font-size: 23px;
 }
 /* qualifications section css  */
-/* #qualifications{
-    height: 100vh;
-    width: 100%;
-} */
+#qualifications .education-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
 /* skills section css  */
 #skills{
     height: 100vh;
     width: 100%;
 }
+#qualifications .education-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid goldenrod;
+    position: relative;
+}
+#qualifications .education-item::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #37517e;
+    border: 8px solid #37517e;
+}
+#qualifications .education-item h4{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #37517e;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 10px;
+}
+#qualifications .education-item h5{
+    font-size: 20px;
+    background: #47b2e4;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+em{
+    font-style: italic;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+#qualifications #qual-course{
+    font-size: 20px;
+    color: black;
+}
+#qualifications #qual-course>span{
+    font-weight: bold;
+}
+section#qualifications{
+    height: auto;
+}
+#qualifications .education-item:last-child{
+    padding-bottom: 0;
+}
+
 
