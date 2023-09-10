@@ -250,6 +250,57 @@ li{
 
 /* Projects section css */
 
+.carousel-item{
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+}
+.carousel-caption{
+    bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    font-weight: 500;
+}
+.carousel-caption p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.button{
+    margin-top: 30px;
+}
+.button .btn{
+    background-color: #47b2e4;
+    columns: white;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.button button a{
+    color: black;
+}
+.button button a:hover{
+    color: #fff;
+} 
+  
+  
+  
 
 
 
