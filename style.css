@@ -3,7 +3,7 @@ html{
 }
 body{
     font-family: "Open Sans", sans-serif;
-    /* background-color: black; */
+    background-color: #37517e;
 }
 .fixed-top.scrolled{
     background-color: #37517e;
@@ -97,12 +97,32 @@ h1,h2,p{
     font-size: 18px;
     font-weight: 500;
 }
+#home .social-links{
+    display: flex;
+    margin-top: 20px;
+}
+#home .social-links a{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#home .social-links a:hover{
+    background-color: #47b2e4;
+}
 
 /* about section css  */
 #about, #qualifications, #skills, #projects, #contacts{
     background-color: antiquewhite;
     /* height: 100vh; */
-    /* width: 100%; */
+    width: 100%;
 }
 .about-title h2,
 .qualifications-title h2{
@@ -276,7 +296,7 @@ li{
     background-color: #47b2e4;
     columns: white;
     border-radius: 50px;
-    padding: 1rem 1rem;
+    padding: 5px 10px;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -344,14 +364,27 @@ li{
 #contacts .snd-email-form .all-labels{
     margin-bottom: 20px;
 }
+.snd-email-form button{
+    background-color: #37517e;
+    border: 0;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.snd-email-form button:hover{
+    background-color: #47b2e4;
+}
 
-/* Media queries */
-/* CSS for iPads (portrait and landscape) */
+/* Footer section css */
 
-/* Add this CSS to your style.css file */
+.footer a{
+    color: #fff;
+}
 
-/* Reset some default margin and padding */
-    
+.footer a:hover{
+    color: #47b2e4;
+}
     
   
 
