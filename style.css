@@ -18,7 +18,7 @@ body{
     /* transition: all 0.5s; */
 }
 .logo-image{
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 20px;
     margin-right: 400px;
@@ -50,7 +50,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px 10px 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     white-space: nowrap;
@@ -75,13 +75,13 @@ h1,h2,p{
     font-family: "Jost" sans-serif;
 }
 #home .myimage{
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 50px;
 }
 .row h1{
     margin: 0 0 30px 0;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 56px;
 }
@@ -91,18 +91,18 @@ h1,h2,p{
 #home h2{
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 23px;
 }
 #home p{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 /* about section css  */
 #about, #qualifications, #skills, #projects, #contacts{
     background-color: antiquewhite;
-    height: 100vh;
-    width: 100%;
+    /* height: 100vh; */
+    /* width: 100%; */
 }
 .about-title h2,
 .qualifications-title h2{
@@ -113,7 +113,7 @@ h1,h2,p{
     padding-bottom: 20px;
     margin-bottom: 20px;
     position: relative;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 .about-title,.qualifications-title{
@@ -143,15 +143,19 @@ h1,h2,p{
 }
 .mydivimg{
     left: 200px;
-    top: 40px;
+    /* top: 40px; */
+    width: 100%;
+    padding-bottom: 80px;
 }
 .my-pic{
-    border-radius: 50px;
     /* border: 2px solid black; */
+    width: 70%;
+    height: auto;
+    border-radius: 50px;
 }
 .about-content .about-para>p{
     color: black;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 /* qualifications section css  */
@@ -161,12 +165,6 @@ h1,h2,p{
     margin-top: 20px;
     margin-bottom: 20px;
     color: black;
-}
-
-/* skills section css  */
-#skills{
-    height: 100vh;
-    width: 100%;
 }
 #qualifications .education-item, #qualifications .work-item{
     padding: 0 0 20px 20px;
@@ -229,29 +227,19 @@ li{
 }
 
 /* Skills section css */
-#skills .row i{
-    font-size: 32px;
-    padding-right: 10px;
-    line-height: 1;
-} 
 #skills .icon-box{
     display: flex;
     align-items: center;
     padding: 20px;
     border-radius: 50px;
-}
-#skills .col-lg-3{
-    margin-bottom: 50px;
-}
-#skills{
-    height: 90vh;
+    margin-bottom: 20px;
 }
 
 
 /* Projects section css */
 
 .carousel-item{
-    min-height: 300px;
+    height: auto;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -300,7 +288,7 @@ li{
 }
 .slide{
     top: 30px;
-} 
+}
 
 /* Contacts section css */
 #contacts .pers-info{
@@ -336,6 +324,42 @@ li{
     font-size: 20px;
     color: #6182ba;
 }
+#contacts .row .block{
+    top: 40px;
+}
+#contacts .snd-email-form{
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+}
+#conatacts .snd-email-form label{
+    padding-bottom: 8px;
+}
+#contacts .all-labels input{
+    height: 44px;
+}
+#contacts .snd-email-form .all-labels{
+    margin-bottom: 20px;
+}
+
+/* Media queries */
+/* CSS for iPads (portrait and landscape) */
+
+/* Add this CSS to your style.css file */
+
+/* Reset some default margin and padding */
+    
+    
+  
+
+
+
+
+
+
   
   
 
