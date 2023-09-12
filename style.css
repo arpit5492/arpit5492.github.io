@@ -309,6 +309,21 @@ li{
 .slide{
     top: 30px;
 }
+.other-projects button{
+    background-color: #47b2e4;
+    columns: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+}
+.other-projects button a{
+    color: black
+}
+.other-projects button a:hover{
+    color: #fff;
+}
 
 /* Contacts section css */
 #contacts .pers-info{
