@@ -22,7 +22,9 @@ window.onscroll = () => {
 var typed = new Typed('.type', {
     strings: [
       'Software',
+      'Frontend Web',
       'Full Stack Web'
+      
   ],
     typeSpeed: 130,
   //   backspeed: 90,

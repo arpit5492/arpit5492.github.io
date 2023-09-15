@@ -400,6 +400,36 @@ li{
 .footer a:hover{
     color: #47b2e4;
 }
+
+/* Media queries */
+@media (max-width: 991px){
+    /* Home section */
+    #home{
+        height: 100vh;
+        text-align: center;
+    }
+    #home .myimage{
+        width: 50%;
+        height: auto;
+        /* margin-top: 40px; */
+        padding: 0;
+        margin-right: 200px;
+    }
+    #home div>h1{
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    #home div>h2{
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
+}
     
   
 
