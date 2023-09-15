@@ -10,29 +10,37 @@ body{
 }
 
 /* navbar css */
-#header{
-    /* background-color: aquamarine; */
+/* #header{
     width: 100%;
     z-index: 997;
     padding: 15px 0;
-    /* transition: all 0.5s; */
-}
+} */
 .logo-image{
     width: 50px;
-    height: auto;
     border-radius: 20px;
-    margin-right: 400px;
+    /* margin-right: 400px; */
 }
-#navbar{
-    position: relative;
+#navbar li a{
+    color: #fff;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: #47b2e4;
+}
+.collapse{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    /* margin-left: 200px; */
+    justify-content: center;
+    margin-left: 100px;
 }
-.navbar ul{
+#navbar li a{
+    margin-right: 30px;
+    font-size: 20px;
+}
+.row>div{
+   top: 50px;
+}
+
+/* .navbar ul{
     display: flex;
     list-style: none;
     align-items: center;
@@ -402,7 +410,10 @@ li{
 }
 
 /* Media queries */
+
 @media (max-width: 991px){
+    /* Header section */
+
     /* Home section */
     #home{
         height: 100vh;

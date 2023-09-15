@@ -1,6 +1,6 @@
 // Script for changing color of the navbar elements while scrolling to the particular element
 let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+let navLinks = document.querySelectorAll('#navbar li a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -12,7 +12,7 @@ window.onscroll = () => {
         if(top >= offset && top < offset + height) {
             navLinks.forEach(links => {
                 links.classList.remove('active');
-                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                document.querySelector('#navbar li a[href*=' + id + ']').classList.add('active');
             });
         };
     });
@@ -39,5 +39,7 @@ $(function () {
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 });
+
+// Script for mobile-toggle-menu
 
 
