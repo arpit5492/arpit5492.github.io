@@ -244,6 +244,9 @@ em{
 #qualifications #qual-course>span{
     font-weight: bold;
 }
+#qualifications .work{
+    left: 100px;
+}
 /* section#qualifications{
     height: auto;
 } */
@@ -418,6 +421,7 @@ li{
     /* Header section */
 
     /* Home section */
+
     #home{
         height: 100vh;
         text-align: center;
@@ -443,6 +447,7 @@ li{
         display: flex;
         justify-content: center;
     }
+
     /* About me section */
     #about{
         height: 100vh;
@@ -455,6 +460,7 @@ li{
     }
     #about .about-para p{
         font-size: 15px;
+        text-align: left;
     }
     #about .about-para{
         padding: 0;
@@ -463,6 +469,29 @@ li{
     }
     .mydivimg{
         padding-bottom: 100px;
+    }
+
+    /* Qualifications section */
+    #qualifications .work{
+        left: 0;
+    }
+    #qualifications .education-title, #qualifications .work-title{
+        font-size: 30px;
+    }
+    #qualifications .education-item h4, #qualifications .work-item h4{
+        font-size: 15px;
+    }
+    #qualifications .education-item h5, #qualifications .work-item h5{
+        font-size: 15px;
+    }
+    em{
+        font-size: 20px;
+    }
+    #qualifications #qual-course, #qualifications #responsibilities{
+        font-size: 18px;
+    }
+    li{
+        font-size: 18px;
     }
 }
     
