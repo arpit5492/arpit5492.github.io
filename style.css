@@ -4,9 +4,18 @@ html{
 body{
     font-family: "Open Sans", sans-serif;
     background-color: #37517e;
+    padding: 0;
 }
 .fixed-top.scrolled{
     background-color: #37517e;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 /* navbar css */
@@ -424,6 +433,9 @@ li{
     /* Header section */
 
     /* Home section */
+    html{
+        margin: 0;
+    }
 
     #home{
         height: 100vh;
