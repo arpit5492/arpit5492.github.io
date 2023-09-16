@@ -338,6 +338,9 @@ li{
 .other-projects button a:hover{
     color: #fff;
 }
+#carouselExampleIndicators{
+    padding-bottom: 100px;
+}
 
 /* Contacts section css */
 #contacts .pers-info{
@@ -492,6 +495,41 @@ li{
     }
     li{
         font-size: 18px;
+    }
+    /* Projects section */
+    .carousel-caption{
+        bottom: 0;
+        padding: 0;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        margin-bottom: 100px;
+    }
+    .btn-1{
+        margin-bottom: 30px;
+    }
+    .btn-1 a{
+        font-size: 14px;
+        padding: 0;
+        padding: 5px 5px;
+    }
+    #carouselExampleIndicators{
+        padding-bottom: 70px;
+    }
+    .other-projects button a{
+        font-size: 16px;
+        padding: 0;
+        padding: 10px 10px;
+    }
+    /* Contacts section */
+    #contacts #address{
+        margin-bottom: 50px;
     }
 }
     
