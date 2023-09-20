@@ -14,7 +14,7 @@ html
     padding: 0px;
     overflow-x: hidden; 
 }
-html, body{
+html{
     scroll-behavior: smooth;
 }
 
