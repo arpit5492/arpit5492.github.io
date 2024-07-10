@@ -1,21 +1,20 @@
-body{
-    font-family: "Open Sans", sans-serif;
-    background-color: #37517e;
-    padding: 0;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #37517e;
+  padding: 0;
 }
-.fixed-top.scrolled{
-    background-color: #37517e;
+.fixed-top.scrolled {
+  background-color: #37517e;
 }
-html
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 /* navbar css */
@@ -24,505 +23,511 @@ html{
     z-index: 997;
     padding: 15px 0;
 } */
-.logo-image{
-    width: 50px;
-    border-radius: 20px;
-    /* margin-right: 400px; */
+.logo-image {
+  width: 50px;
+  border-radius: 20px;
+  /* margin-right: 400px; */
 }
-#navbar li a{
-    color: #fff;
+#navbar li a {
+  color: #fff;
 }
 #navbar li a:hover,
-#navbar li a.active{
-    color: #47b2e4;
+#navbar li a.active {
+  color: #47b2e4;
 }
-.collapse{
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
+.collapse {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
 }
-#navbar li a{
-    margin-right: 30px;
-    font-size: 20px;
+#navbar li a {
+  margin-right: 30px;
+  font-size: 20px;
 }
-.row>div{
-   top: 50px;
+.row > div {
+  top: 50px;
 }
-
 
 /* home section css  */
-#home{
-    height: 80vh;
-    width: 100%;
-    background-color: black;
+#home {
+  height: 80vh;
+  width: 100%;
+  background-color: black;
 }
-h1,h2,p{
-    color: #fff;
-    font-family: "Jost" sans-serif;
+h1,
+h2,
+p {
+  color: #fff;
+  font-family: "Jost" sans-serif;
 }
-#home .myimage{
-    width: 80%;
-    height: auto;
-    border-radius: 50px;
+#home .myimage {
+  width: 80%;
+  height: auto;
+  border-radius: 50px;
 }
-.row h1{
-    margin: 0 0 30px 0;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 56px;
+.row h1 {
+  margin: 0 0 30px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
 }
-.intro span{
-    color: #47b2e4;
+.intro span {
+  color: #47b2e4;
 }
-#home h2{
-    color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 30px;
-    font-size: 23px;
+#home h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 30px;
+  font-size: 23px;
 }
-#home p{
-    font-size: 18px;
-    font-weight: 500;
+#home p {
+  font-size: 18px;
+  font-weight: 500;
 }
-#home .social-links{
-    display: flex;
-    margin-top: 20px;
+#home .social-links {
+  display: flex;
+  margin-top: 20px;
 }
-#home .social-links a{
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    line-height: 1;
-    margin-right: 10px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+#home .social-links a {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
-#home .social-links a:hover{
-    background-color: #47b2e4;
+#home .social-links a:hover {
+  background-color: #47b2e4;
 }
 
 /* about section css  */
-#about, #qualifications, #skills, #projects, #contacts{
-    background-color: antiquewhite;
-    /* height: 100vh; */
-    width: 100%;
+#about,
+#qualifications,
+#skills,
+#projects,
+#contacts {
+  background-color: antiquewhite;
+  /* height: 100vh; */
+  width: 100%;
 }
 .about-title h2,
-.qualifications-title h2{
-    color: #37517e;
-    margin-top: 0px;
-    padding-top: 40px;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    font-size: 30px;
-    font-weight: bold;
+.qualifications-title h2 {
+  color: #37517e;
+  margin-top: 0px;
+  padding-top: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
 }
-.about-title,.qualifications-title{
-    text-align: center;
+.about-title,
+.qualifications-title {
+  text-align: center;
 }
 .about-title h2::before,
-.qualifications-title h2::before{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: gray;
-    bottom: 1px;
-    left: calc(50% - 60px);
+.qualifications-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: gray;
+  bottom: 1px;
+  left: calc(50% - 60px);
 }
 .about-title h2::after,
-.qualifications-title h2::after{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: #47b2e4;
-    bottom: 0;
-    left: calc(50% - 20px);
+.qualifications-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
 }
-.mydivimg{
-    /* left: 200px; */
-    /* top: 40px; */
-    width: 100%;
-    padding-bottom: 150px;
+.mydivimg {
+  /* left: 200px; */
+  /* top: 40px; */
+  width: 100%;
+  padding-bottom: 150px;
 }
-.my-pic{
-    /* border: 2px solid black; */
-    width: 60%;
-    height: auto;
-    border-radius: 50px;
+.my-pic {
+  /* border: 2px solid black; */
+  width: 60%;
+  height: auto;
+  border-radius: 50px;
 }
-.about-content .about-para>p{
-    color: black;
-    font-size: 16px;
+.about-content .about-para > p {
+  color: black;
+  font-size: 18px;
 }
-.about-para{
-    margin-top: 10px;
+.about-para {
+  margin-top: 10px;
+  margin-bottom: 120px;
 }
 
 /* qualifications section css  */
-#qualifications .education-title, #qualifications .work-title{
-    font-size: 35px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: black;
+#qualifications .education-title,
+#qualifications .work-title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
 }
-#qualifications .education-item, #qualifications .work-item{
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid goldenrod;
-    position: relative;
+#qualifications .education-item,
+#qualifications .work-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid goldenrod;
+  position: relative;
 }
-#qualifications .education-item::before, #qualifications .work-item::before{
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #37517e;
-    border: 8px solid #37517e;
+#qualifications .education-item::before,
+#qualifications .work-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #37517e;
+  border: 8px solid #37517e;
 }
-#qualifications .education-item h4, #qualifications .work-item h4{
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #37517e;
-    font-family: 'Poppins',sans-serif;
-    margin-bottom: 10px;
+#qualifications .education-item h4,
+#qualifications .work-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
 }
-#qualifications .education-item h5, #qualifications .work-item h5{
-    font-size: 20px;
-    background: #47b2e4;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
+#qualifications .education-item h5,
+#qualifications .work-item h5 {
+  font-size: 20px;
+  background: #47b2e4;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-em{
-    font-style: italic;
-    color: black;
-    font-size: 25px;
-    font-weight: 400;
+em {
+  font-style: italic;
+  color: black;
+  font-size: 25px;
+  font-weight: 400;
 }
-#qualifications #qual-course, #qualifications #responsibilities{
-    font-size: 20px;
-    color: black;
+#qualifications #qual-course,
+#qualifications #responsibilities {
+  font-size: 20px;
+  color: black;
 }
-#qualifications #qual-course>span{
-    font-weight: bold;
+#qualifications #qual-course > span {
+  font-weight: bold;
 }
-#qualifications .work{
-    left: 100px;
+#qualifications .work {
+  left: 100px;
 }
 /* section#qualifications{
     height: auto;
 } */
-#qualifications .education-item:last-child, #qualifications .work-item:last-child{
-    padding-bottom: 0;
+#qualifications .education-item:last-child,
+#qualifications .work-item:last-child {
+  padding-bottom: 0;
 }
-#qualifications #responsibilities>span{
-    font-weight: bold;
+#qualifications #responsibilities > span {
+  font-weight: bold;
 }
-li{
-    font-size: 20px;
+li {
+  font-size: 20px;
 }
 
 /* Skills section css */
-#skills .icon-box{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border-radius: 50px;
-    margin-bottom: 20px;
+#skills .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
 }
-
 
 /* Projects section css */
 
-.carousel-item{
-    height: auto;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
+.carousel-item {
+  height: auto;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
-.carousel-item::before{
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #000;
-    opacity: 0.5;
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.6;
 }
-.carousel-caption{
-    bottom: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
+.carousel-caption {
+  bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  top: 100px;
 }
-.carousel-caption h5{
-    font-size: 45px;
-    font-weight: 500;
+.carousel-caption h5 {
+  font-size: 45px;
+  font-weight: 500;
 }
-.carousel-caption p{
-    font-size: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.carousel-caption p {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.button{
-    margin-top: 30px;
+.button {
+  margin-top: 30px;
 }
-.button .btn{
-    background-color: #47b2e4;
-    columns: white;
-    border-radius: 50px;
-    padding: 5px 10px;
-    font-size: 1rem;
-    font-weight: 500;
+.button .btn {
+  background-color: #47b2e4;
+  columns: white;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 500;
 }
-.button button a{
-    color: black;
+.button button a {
+  color: black;
 }
-.button button a:hover{
-    color: #fff;
+.button button a:hover {
+  color: #fff;
 }
-.slide{
-    top: 30px;
+.slide {
+  top: 30px;
 }
-.other-projects button{
-    background-color: #47b2e4;
-    columns: white;
-    border-radius: 50px;
-    padding: 5px 10px;
-    font-size: 1rem;
-    font-weight: 500;
-    border: none;
+.other-projects button {
+  background-color: #47b2e4;
+  columns: white;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
 }
-.other-projects button a{
-    color: black
+.other-projects button a {
+  color: black;
 }
-.other-projects button a:hover{
-    color: #fff;
+.other-projects button a:hover {
+  color: #fff;
 }
-#carouselExampleIndicators{
-    padding-bottom: 100px;
+#carouselExampleIndicators {
+  padding-bottom: 100px;
 }
 
 /* Contacts section css */
-#contacts .pers-info{
-    border-top: 3px solid #47b2e4;
-    border-bottom: 3px solid #47b2e4;
-    padding: 30px;
-    background: #fff;
-    width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+#contacts .pers-info {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
-#contacts .pers-info i{
-    font-size: 28px;
-    color: #47b2e4;
-    float: left;
-    width: 50px;
-    height: 50px;
-    background: #e7f5fb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
+#contacts .pers-info i {
+  font-size: 28px;
+  color: #47b2e4;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #e7f5fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
 }
-#contacts .pers-info h4{
-    padding: 0 0 0 60px;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #37517e;
+#contacts .pers-info h4 {
+  padding: 0 0 0 60px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
 }
-#contacts .pers-info p{
-    padding: 0 0 10px 60px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: #6182ba;
+#contacts .pers-info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #6182ba;
 }
-#contacts .row .block{
-    top: 40px;
+#contacts .row .block {
+  top: 40px;
 }
-#contacts .snd-email-form{
-    border-top: 3px solid #47b2e4;
-    border-bottom: 3px solid #47b2e4;
-    padding: 30px;
-    background: #fff;
-    width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+#contacts .snd-email-form {
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
-#conatacts .snd-email-form label{
-    padding-bottom: 8px;
+#conatacts .snd-email-form label {
+  padding-bottom: 8px;
 }
-#contacts .all-labels input{
-    height: 44px;
+#contacts .all-labels input {
+  height: 44px;
 }
-#contacts .snd-email-form .all-labels{
-    margin-bottom: 20px;
+#contacts .snd-email-form .all-labels {
+  margin-bottom: 20px;
 }
-.snd-email-form button{
-    background-color: #37517e;
-    border: 0;
-    color: #fff;
-    padding: 12px 30px;
-    border-radius: 50px;
-    transition: 0.3s;
+.snd-email-form button {
+  background-color: #37517e;
+  border: 0;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
 }
-.snd-email-form button:hover{
-    background-color: #47b2e4;
+.snd-email-form button:hover {
+  background-color: #47b2e4;
 }
 
 /* Footer section css */
 
-.footer a{
-    color: #fff;
+.footer a {
+  color: #fff;
 }
 
-.footer a:hover{
-    color: #47b2e4;
+.footer a:hover {
+  color: #47b2e4;
 }
 
 /* Media queries */
 
-@media (max-width: 991px){
-    /* Header section */
+@media (max-width: 991px) {
+  /* Header section */
 
-    /* Home section */
-    html{
-        margin: 0;
-    }
+  /* Home section */
+  html {
+    margin: 0;
+  }
 
-    #home{
-        height: 100vh;
-        text-align: center;
-    }
-    #home .myimage{
-        width: 50%;
-        height: auto;
-        /* margin-top: 40px; */
-        padding: 0;
-        margin-right: 200px;
-    }
-    #home div>h1{
-        font-size: 40px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-    #home div>h2{
-        font-size: 20px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-    .social-links{
-        display: flex;
-        justify-content: center;
-    }
+  #home {
+    height: 100vh;
+    text-align: center;
+  }
+  #home .myimage {
+    width: 50%;
+    height: auto;
+    /* margin-top: 40px; */
+    padding: 0;
+    margin-right: 200px;
+  }
+  #home div > h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #home div > h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
 
-    /* About me section */
-    #about{
-        /* height: 100vh; */
-        text-align: center;
-    }
-    #about .my-pic{
-        width: 40%;
-        height: auto;
-        padding: 0;
-    }
-    #about .about-para p{
-        font-size: 15px;
-        text-align: left;
-    }
-    #about .about-para{
-        padding: 0;
-        top: 0;
-        margin: 0;
-    }
-    .mydivimg{
-        padding-bottom: 100px;
-    }
+  /* About me section */
+  #about {
+    /* height: 100vh; */
+    text-align: center;
+  }
+  #about .my-pic {
+    width: 40%;
+    height: auto;
+    padding: 0;
+  }
+  #about .about-para p {
+    font-size: 15px;
+    text-align: left;
+  }
+  #about .about-para {
+    padding: 0;
+    top: 0;
+    margin: 0;
+  }
+  .mydivimg {
+    padding-bottom: 100px;
+  }
 
-    /* Qualifications section */
-    #qualifications .work{
-        left: 0;
-    }
-    #qualifications .education-title, #qualifications .work-title{
-        font-size: 30px;
-    }
-    #qualifications .education-item h4, #qualifications .work-item h4{
-        font-size: 15px;
-    }
-    #qualifications .education-item h5, #qualifications .work-item h5{
-        font-size: 15px;
-    }
-    em{
-        font-size: 20px;
-    }
-    #qualifications #qual-course, #qualifications #responsibilities{
-        font-size: 18px;
-    }
-    li{
-        font-size: 18px;
-    }
-    /* Projects section */
-    .carousel-caption{
-        bottom: 0;
-        padding: 0;
-    }
-    .carousel-caption h5{
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-    .carousel-caption p{
-        font-size: 13px;
-    }
-    .carousel-control-prev-icon, .carousel-control-next-icon{
-        margin-bottom: 100px;
-    }
-    .btn-1{
-        margin-bottom: 30px;
-    }
-    .btn-1 a{
-        font-size: 14px;
-        padding: 0;
-        padding: 5px 5px;
-    }
-    #carouselExampleIndicators{
-        padding-bottom: 70px;
-    }
-    .other-projects button a{
-        font-size: 16px;
-        padding: 0;
-        padding: 10px 10px;
-    }
-    /* Contacts section */
-    #contacts #address{
-        margin-bottom: 50px;
-    }
+  /* Qualifications section */
+  #qualifications .work {
+    left: 0;
+  }
+  #qualifications .education-title,
+  #qualifications .work-title {
+    font-size: 30px;
+  }
+  #qualifications .education-item h4,
+  #qualifications .work-item h4 {
+    font-size: 15px;
+  }
+  #qualifications .education-item h5,
+  #qualifications .work-item h5 {
+    font-size: 15px;
+  }
+  em {
+    font-size: 20px;
+  }
+  #qualifications #qual-course,
+  #qualifications #responsibilities {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
+  }
+  /* Projects section */
+  .carousel-caption {
+    bottom: 0;
+    padding: 0;
+  }
+  .carousel-caption h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .carousel-caption p {
+    font-size: 13px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    margin-bottom: 100px;
+  }
+  .btn-1 {
+    margin-bottom: 30px;
+  }
+  .btn-1 a {
+    font-size: 14px;
+    padding: 0;
+    padding: 5px 5px;
+  }
+  #carouselExampleIndicators {
+    padding-bottom: 70px;
+  }
+  .other-projects button a {
+    font-size: 16px;
+    padding: 0;
+    padding: 10px 10px;
+  }
+  /* Contacts section */
+  #contacts #address {
+    margin-bottom: 50px;
+  }
 }
-    
-  
-
-
-
-
-
-
-  
-  
-
-
-
